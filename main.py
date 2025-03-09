@@ -66,5 +66,5 @@ app.run(
     host=WEBHOOK_LISTEN,
     port=WEBHOOK_PORT,
     ssl_context=(WEBHOOK_SSL_CERT, WEBHOOK_SSL_PRIV),
-    debug=True,
+    debug=False,
 )
