@@ -11,8 +11,8 @@ WEBHOOK_HOST = "213.109.204.180"
 WEBHOOK_PORT = 8443
 WEBHOOK_LISTEN = "0.0.0.0"
 
-WEBHOOK_SSL_CERT = "certs/webhook_cert.pem"
-WEBHOOK_SSL_PRIV = "certs/webhook_pkey.pem"
+WEBHOOK_SSL_CERT = "/etc/ssl/certs/webhook_cert.pem"
+WEBHOOK_SSL_PRIV = "/etc/ssl/certs/webhook_pkey.pem"
 
 WEBHOOK_URL_BASE = "https://%s:%s" % (WEBHOOK_HOST, WEBHOOK_PORT)
 WEBHOOK_URL_PATH = "/%s/" % (API_TOKEN)
